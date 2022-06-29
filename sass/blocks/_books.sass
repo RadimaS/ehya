@@ -1,0 +1,118 @@
+.books
+  &-wrapper
+    display: flex
+    justify-content: space-between
+  &-recomended
+    display: flex
+    flex-direction: column
+    width: 748px
+  &-container
+    justify-content: space-between
+    display: flex
+    flex-wrap: wrap 
+  &-card
+    padding: 11px 15px 10px 11px
+    display: flex
+    border: 1px solid $border-color
+    border-radius: 8px
+    height: 260px
+    width: 358px
+  &__card
+    &:not(:nth-last-child(-n+2))
+      margin-bottom: 32px
+  &__view
+    margin-right: 17px
+    height: 238px
+    width: 160px
+  &__img
+    height: 100%
+    width: 100%
+    border-radius: 5px
+  &__name
+    margin: 13px 0 16px 3px
+    width: 152px
+  &__info
+    width: 144px
+  &__genre
+    margin: 0 0 24px 3px
+  &__price
+    margin: 0 0 24px 3px
+  &__title
+    margin: 0 0 30px 0
+    font-family: 'Roboto Condensed', sans-serif
+    font-style: normal
+    font-weight: bold
+    font-size: 32px
+    line-height: 40px
+  &__actions
+    display: flex
+    justify-content: space-between
+  &__favorites
+    height: 18px
+    width: 21px
+    align-self: center
+    margin-bottom: 2px
+  &__more
+    margin-top: 27px
+    height: 72px
+    width: 100%
+    font-family: 'Roboto Condensed', sans-serif
+    font-weight: bold
+    font-size: 16px
+    line-height: 20px
+    text-transform: uppercase
+    color: $blue
+    border-radius: 8px
+    border: none
+    background-color: #E8F0FB
+
+ 
+
+  &-top
+    display: flex
+    flex-direction: column
+  &-block
+    display: flex
+    width: 312px
+    height: 178px
+  &__block
+    &:not(:last-of-type) 
+      margin-bottom: 36px
+    &:last-of-type
+      margin-bottom: 26px
+  &__present
+    margin-right: 25px
+    height: 177px
+    width: 120px
+  &-section
+    padding: 24px 24px 0 24px
+    display: flex
+    flex-direction: column
+    background-color: $section-color
+    border-radius: 8px
+  &__appellation
+    margin-top: 9px
+    margin-bottom: 15px
+    width: 166px
+  &__pricetag
+    margin-bottom: 22px
+  &__top
+    width: 360px
+  &__best
+    padding: 25px 0 26px 0
+    text-align: center
+    width: 100%
+    border-top: 2px solid #ECEEF2
+    text-transform: uppercase
+    font-family: 'Roboto Condensed', sans-serif
+    font-style: normal
+    font-weight: bold
+    font-size: 16px
+    line-height: 20px
+    color: $blue
+    text-decoration: none
+  &--mb
+    margin-bottom: 79px
+
+.active
+  background-color: red
